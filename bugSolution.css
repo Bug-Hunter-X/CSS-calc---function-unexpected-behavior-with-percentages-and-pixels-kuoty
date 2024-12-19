@@ -1,0 +1,11 @@
+The issue can be resolved in several ways, depending on the specific context.  One approach is to ensure that the calculation is unambiguous by using parentheses to group operations:
+
+```css
+#myElement {
+  width: calc((50% - 10px));
+}
+```
+
+Another solution might involve restructuring the CSS to avoid the combination of percentages and fixed units. For example, you might use only percentages or only fixed units, depending on your requirements.
+
+If the problem persists after trying these solutions, check for conflicts with other CSS properties or rules that might be affecting the element's width.
