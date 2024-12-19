@@ -1,0 +1,9 @@
+The CSS property `calc()` is not working as expected when used with percentages and other units. For example, the following code snippet doesn't calculate the width correctly:
+
+```css
+#myElement {
+  width: calc(50% - 10px);
+}
+```
+
+The expected behavior is that the element's width should be 50% of its container's width minus 10 pixels. However, in some cases, the calculation may not be performed correctly, resulting in an unexpected width.
